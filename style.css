@@ -19,9 +19,9 @@ body {
     background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(70, 130, 180, 1) 0%,
+    rgba(39, 245, 58, .58) 0%,
     rgba(238, 238, 238, 1) 50%,
-    rgba(255, 165, 0, 1) 100%
+    rgba(39, 245, 58, .33) 100%
     );
     display: grid;
     place-content: center;
@@ -102,12 +102,12 @@ button:active {
 }
 
 .equals {
-    background-color: rgb(108, 177, 233);
+    background-color: rgb(27, 124, 37, .74);
 }
 
 .equals:hover, 
 .equals:active {
-    background-color: steelblue;
+    background-color: rgba(22, 77, 27, 0.33);
     filter: brightness(120%);
 }
 
