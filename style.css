@@ -108,7 +108,7 @@ button:active {
 .equals:hover, 
 .equals:active {
     background-color: rgba(22, 77, 27, 0.33);
-    filter: brightness(120%);
+    filter: brightness(200%);
 }
 
 @media screen and (min-width: 768px) {

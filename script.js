@@ -68,7 +68,7 @@ const initApp = () => {
 
                 if (divByZero(equationString)) {
                     equationArray.pop();
-                    currentValueElem.value = "/0=🤯💩";
+                    currentValueElem.value = "";
                     // start new equation 
                     itemArray = [0, newOperator];
                 } else {
@@ -117,7 +117,7 @@ const initApp = () => {
 
         if (divByZero(equationString)) {
             equationArray.pop();
-            currentValueElem.value = "/0=🤯💩";
+            currentValueElem.value = "";
         } else {
             currentValueElem.value = calculate(equationString);
         }
